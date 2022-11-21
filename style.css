@@ -178,6 +178,30 @@ body{
 
   }
   
+  .h4-dieta{
+    background-color: #f88f067c;
+    border-radius: 10px;
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #c45d5d;
+    
+  }
+  .h4-dieta02{
+    border-radius: 5px;
+    padding: 0 15px 0 15px;
+  }
+  .p-dieta{
+    background-color: #ffffff1a;
+    border-radius: 5px;
+    padding: 0 15px 0 15px;
+    text-align:justify;
+    letter-spacing: 1px;
+    color: #000000;
+
+  }
+  
   h1 {
     text-align: center;
     text-transform: uppercase;

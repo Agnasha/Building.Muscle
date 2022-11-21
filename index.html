@@ -1,164 +1,198 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Building.Muscle</title>
-     <!-- Icone -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Building.Muscle</title>
+  <!-- Icone -->
   <link href="Imagens/hulk.png" rel="icon">
 
-   <!-- Template Main CSS File -->
-   <link rel="stylesheet" href="style.css">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   
-  </head>
-  </head>
-  <body class="gradient">
-    <!--Navbar-->
-    <div>
-      <nav>
-        <div class="logo"> Building a Muscle <img src="Imagens/batman.png"width="50px" height="50px"> </div>
-        <div class="menu-btn">
-          <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
-        </div>
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-       <ul>
-          <li> <a href="#"> Inicio </a> </li>
-          <li> <a href="#Dietas de Herois"> Dietas </a> </li>
-          <li> <a href="#exercicio"> Exercícios</a> </li>
-          
-        </ul>
-      </nav>
-   </div>
+</head>
+</head>
+
+<body class="gradient">
+  <!--Navbar-->
+  <div>
+    <nav>
+      <div class="logo"> Building a Muscle <img src="Imagens/batman.png" width="50px" height="50px"> </div>
+      <div class="menu-btn">
+        <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+      </div>
+
+      <ul>
+        <li> <a href="#"> Inicio </a> </li>
+        <li> <a href="#Dietas de Herois"> Dietas </a> </li>
+        <li> <a href="#exercicio"> Exercícios</a> </li>
+
+      </ul>
+    </nav>
+  </div>
+  <br>
+  <br><br><br><br>
+  <!--Beneficios de exercicios-->
+  <div class="tela02">
     <br>
-    <br><br><br><br>
-    <!--Beneficios de exercicios-->
-    <div class = "tela02">
+    <h1>Esta em duvida de como começar?</h1>
+    <br>
+    <h3 class="h3-01">Vamos conhecer a importancia das atividades fisicas:</h3><br>
+    <p class="fisico">Sabemos que manter o corpo em movimento é fundamental para uma boa qualidade de vida, prevenir
+      doenças e ter um bom estado de saúde física e mental. Realizar atividades diárias usando o corpo é extremamente
+      benéfico. Além de queimar calorias, aumenta o bem-estar físico e mental, ajuda no condicionamento físico e reduz
+      as chances de desenvolver doenças cardiovasculares e Acidente Vascular Cerebral (AVC). </p>
+    <br>
+    <h3 class="h3-02">Mas como começar?</h3>
+    <p class="fisico">Podemos começar medindo a sua massa corporal (IMC), de acordo com o seu resultado liberamos tipos
+      de dietas que você poderá escolher clicando aqui ><a href="#Dietas de Herois">Dietas</a>
+      < onde nelas informamos dietas especificas para ganho de massa, como manter e dietas tambem de como perder. Logo
+        apos disponibilizamos uns exercicios basicos que junto a dieta apropriada é uma boa maneira de começar a
+        construir os seus musculos!</p>
+        <br>
+        <h1 class="h1-01">Venha e torne se um Super Heroi !!!
+
+  </div>
+
+
+
+  <!--Calculadora ICM-->
+  <div class="tela1">
+    <h1> 1º Qual sua Massa Corporal?</h1>
+    <form>
       <br>
-      <h1>Esta em duvida de como começar?</h1>
+      <h4>Digite seu peso</h4>
+    </form>
+    <input id='peso' type='number' />
+    <span>Kg</span>
+    <div>
       <br>
-      <h3 class="h3-01">Vamos conhecer a importancia das atividades fisicas:</h3><br>
-      <p class="fisico">Sabemos que manter o corpo em movimento é fundamental para uma boa qualidade de vida, prevenir doenças e ter um bom estado de saúde física e mental.  Realizar atividades diárias usando o corpo é extremamente benéfico. Além de queimar calorias, aumenta o bem-estar físico e mental, ajuda no condicionamento físico e reduz as chances de desenvolver doenças cardiovasculares e Acidente Vascular Cerebral (AVC). </p>
-      <br>
-      <h3 class="h3-02">Mas como começar?</h3>
-      <p class="fisico">Podemos começar medindo a sua massa corporal (IMC), de acordo com o seu resultado liberamos tipos de dietas que você poderá escolher clicando aqui ><a href="#Dietas de Herois">Dietas</a>< onde nelas informamos dietas especificas para ganho de massa, como manter e dietas tambem de como perder. Logo apos disponibilizamos uns exercicios basicos que junto a dieta apropriada é uma boa maneira de começar a construir os seus musculos!</p>
-      <br>
-      <h1 class="h1-01">Venha e torne se um Super Heroi !!!
-      
+      <h4>Digite sua altura</h4>
+      <input id='altura' type='number' />
+      <span>Cm</span>
     </div>
-    
-      
-    
-    <!--Calculadora ICM-->
-    <div class = "tela1">
-        <h1> 1º Qual sua Massa Corporal?</h1>
-        <form>
-          <br>
-        <h4>Digite seu peso</h4>
-        </form>
-        <input id='peso' type='number'/>
-        <span>Kg</span>
-        <div>
-          <br>
-        <h4>Digite sua altura</h4>
-        <input id='altura' type='number'/>
-          <span>Cm</span>
-        </div>
-        <div>
-          <br>
-        <input id='btn_calcular' class='botao' type="button" value="Calcular">
-        </div>
-        <br><br>
-        <div id="resultado"></div>
-      </div>
-
-
-      <!--Informaçoes-->
-      <br><br><br><br><br><br><br><br>
-
-
-      <div class="dietas" ><a name="Dietas de Herois"></a>
-        <h1>Selecione sua Dieta de Heroi</h1>
-        <br><br><br>
-        <p>
-        <a class="btn btn-secondary btn-lg" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Ganho de Massa</a>
-        <button class="btn btn-secondary btn-lg" type ="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" >Manter o Peso</button>
-        <button class="btn btn-secondary btn-lg" type ="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3" >Perder Peso</button>
-        
-        <button class="btn btn-secondary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Todos</button>
-        
-      </p>
-      <div class="row">
-        <div class="col">
-          <div class="collapse multi-collapse" id="multiCollapseExample1">
-            <div class="card">
-              Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="collapse multi-collapse" id="multiCollapseExample2">
-            <div class="card">
-              Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="collapse multi-collapse" id="multiCollapseExample3">
-            <div class="card">
-              Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-            </div>
-          </div>
-        </div>
-      </div>
+    <div>
+      <br>
+      <input id='btn_calcular' class='botao' type="button" value="Calcular">
     </div>
+    <br><br>
+    <div id="resultado"></div>
+  </div>
+
+
+  <!--Informaçoes-->
+  <br><br><br><br><br><br><br><br>
+
+
+  <div class="dietas"><a name="Dietas de Herois"></a>
+    <h1>Selecione sua Dieta de Heroi</h1>
     <br><br><br>
+    <p>
+      <a class="btn btn-secondary btn-lg" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+        aria-expanded="false" aria-controls="multiCollapseExample1">Ganho de Massa</a>
+      <button class="btn btn-secondary btn-lg" type="button" data-bs-toggle="collapse"
+        data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Manter o
+        Peso</button>
+      <button class="btn btn-secondary btn-lg" type="button" data-bs-toggle="collapse"
+        data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Perder
+        Peso</button>
 
-    <!--Exercicios Alongamentos-->
-    
-    <div class="exercicio"><a name="exercicio"></a>
-    
-      <h1>E comece a Construir Musculos</h1>
-      <br>
-      <h5>Tudo no seu tempo!!</h5>
-      <!--Cronometro-->
-      <br>
-      <audio id="sound" src="alarme.mp3" style="display: none;"></audio>
-      <div class="container">
-        <h2>Minutos:</h2>
-        <input number id="minutos" name="minutos"></select>
-    
-        <h2>Segundos:</h2>
-        <input number id="segundos" name="segundos"></select>
-        <br/>
-        <br/>
-        <button id="comecar">Começar!</button>
-        <button id="parar">Stop</button>
-    
-        <div id="display">
-            <h3></h3>
-        </div>
-    </div>
-    
-    <!--Cards de Exercicios-->
-      <br>
-      <br>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <button class="btn btn-secondary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+        aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Todos</button>
+
+    </p>
+    <div class="row">
       <div class="col">
-        
+        <div class="collapse multi-collapse" id="multiCollapseExample1">
+          <div class="card">
+            <h4 class="h4-dieta">Aumentar a massa muscular é importante seguir algumas estratégias:</h4>
+            
+
+            <h4 class="h4-dieta02">1. Consumir mais calorias do que gasta</h4>
+            <p class="p-dieta"> é essencial para ganhar massa muscular de forma mais rápida, pois as calorias
+              excedentes, juntamente com
+              os treinos, irão permitir o aumento dos músculos.</p>
+            <h4 class="h4-dieta02">2. Não pular refeições</h4>
+            <p class="p-dieta">Evitar pular refeições é importante para que seja possível atingir todas as calorias
+              necessárias durante o dia, sem estimular possíveis perdas de massa magra durante um jejum prolongado. O
+              ideal é que sejam feitas de 5 a 6 refeições por dia, com atenção redobrada no café da manhã, pré e
+              pós-treino.</p>
+            <h4 class="h4-dieta02">3. Consumir mais proteínas</h4>
+            <p class="p-dieta">Aumentar o consumo de proteínas é necessário para permitir o crescimento muscular, sendo
+              importante que os alimentos fontes de proteínas sejam bem distribuídos ao longo do dia, e não concentradas
+              em apenas 2 ou 3 refeições.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="collapse multi-collapse" id="multiCollapseExample2">
+          <div class="card">
+            Some placeholder content for the second collapse component of this multi-collapse example. This panel is
+            hidden by default but revealed when the user activates the relevant trigger.
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="collapse multi-collapse" id="multiCollapseExample3">
+          <div class="card">
+            Some placeholder content for the second collapse component of this multi-collapse example. This panel is
+            hidden by default but revealed when the user activates the relevant trigger.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+
+  <!--Exercicios Alongamentos-->
+
+  <div class="exercicio"><a name="exercicio"></a>
+
+    <h1>E comece a Construir Musculos</h1>
+    <br>
+    <h5>Tudo no seu tempo!!</h5>
+    <!--Cronometro-->
+    <br>
+    <audio id="sound" src="alarme.mp3" style="display: none;"></audio>
+    <div class="container">
+      <h2>Minutos:</h2>
+      <input number id="minutos" name="minutos"></select>
+
+      <h2>Segundos:</h2>
+      <input number id="segundos" name="segundos"></select>
+      <br />
+      <br />
+      <button id="comecar">Começar!</button>
+      <button id="parar">Stop</button>
+
+      <div id="display">
+        <h3></h3>
+      </div>
+    </div>
+
+    <!--Cards de Exercicios-->
+    <br>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+
         <div class="card h-100">
           <h2>O saiyajin</h2>
           <img src="Imagens/Osaiyajin1.png" class="card-img-top" alt="...">
           <p class="card-text">Realizando o movimento do O Saiyajin!<br>Passo a Passo!</p>
           <div class="card h-100">
-            <video src="videos/saiajin.mp4"  class="card-video-middle" controls></video>
-            
+            <video src="videos/saiajin.mp4" class="card-video-middle" controls></video>
+
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
           </div>
-          
+
         </div>
       </div>
       <div class="col">
@@ -169,10 +203,13 @@
 
           <div class="card h-100">
             <video src="videos/feiticeira.mp4" class="card-video-middle" controls></video>
-<br>
-            <p class="card-text">Começa com quinze repetições do "Kettlebell Swing". Depois, um trabalho de "core" mais focado com quinze "Russian Twist", controle o movimento e evite bater o peso contra o chão. Por fim, hora das pernas com quinze "Goblet Squat", faça o agachamento dentro das suas capacidades, com o tempo você ganha mais amplitude no movimento! </p>
+            <br>
+            <p class="card-text">Começa com quinze repetições do "Kettlebell Swing". Depois, um trabalho de "core" mais
+              focado com quinze "Russian Twist", controle o movimento e evite bater o peso contra o chão. Por fim, hora
+              das pernas com quinze "Goblet Squat", faça o agachamento dentro das suas capacidades, com o tempo você
+              ganha mais amplitude no movimento! </p>
           </div>
-          
+
         </div>
       </div>
       <div class="col">
@@ -185,27 +222,31 @@
           <div class="card h-100">
             <video src="videos/naruto.mp4" class="card-video-middle" controls></video>
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
           </div>
-          
+
         </div>
       </div>
     </div>
   </div>
 
-  
-  
-    
-    <br><br>
 
 
 
-      
+  <br><br>
 
 
-    <script src="main.js"></script> 
-    
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-   <script src="alarme.js"></script>
-  </body>
+
+
+
+
+  <script src="main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="alarme.js"></script>
+</body>
+
 </html>
