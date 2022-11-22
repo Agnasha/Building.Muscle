@@ -10,14 +10,14 @@ nav{
     display: flex;
     height: 60px;
     width: 100%;
-    background-color: #FF8C00;
+    background-color: #5c77aaea;
     align-items: center;
     justify-content: space-between;
     padding: 0 50px 0 100px;
     flex-wrap: wrap;
 }
 nav .logo{
-    color: #FFEFD5;
+    color: #FFFACD;
     font-size: 35px;
     font-weight: 600;
 
@@ -80,42 +80,55 @@ nav .menu-btn i{
     nav ul li a.active,
     nav ul li a:hover{
         background: none;
-        color: #f88f06;
+        color: #FFDAB9;
     }   
 }
 
 /*calculadora de ICM*/
+.gradient{
+  display: center;
+  align-items: justify;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  
+}
+
 
 body{
-    justify-content: left;
-    background: url(Imagens/Malhar.jpg) repeat ;
+    
+   background: url(Imagens/LOGO.jpg) repeat ;
     background-position: absolute;
-
+    backdrop-filter: blur(50px);
+    backdrop-filter: brightness(20%);
     
     background-size:contain;
     
   }
    /*Primeiro bloco de informação*/
   .tela02{
-    border: 5px #ddd;
+    border: 5px rgb(255, 255, 255);
     box-shadow: 0px 0px 10px;
-    background-color: #524d48ea;
+    background-color: #373e4dea;
+    
+    
     position:relative;
     padding: 2em 2em;
     width: 80%;
     height: 30%;
     border-radius: 5px;
-    margin-top: 5%;
+    margin-top: 0%;
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 20%;
   }
   .fisico{
     font-style:normal;
-    font-size: large;
+    font-size:larger;
     letter-spacing: 1px;
     font-family:'Times New Roman', Times, serif;
-    color: #f88f06;
+    color: #FFDAB9;
     
   }
   .h3-01{
@@ -141,10 +154,9 @@ body{
   .tela1{
     border: 5px #ddd;
     box-shadow: 0px 0px 10px;
-    background-color: #353433bd;
+    background-color: #5c77aaea;
     position:relative;
     padding: 4em 2em;
-   
     width: 50%;
     height: 40%;
    
@@ -165,7 +177,7 @@ body{
     width: 95%;
     height: 10%;
     padding: 10px;
-    background-color:#f88f06;
+    background-color:#63b0c7b6;
     
     cursor: pointer;
     border: no;
@@ -175,7 +187,7 @@ body{
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #f88f06;
+    color: #f9fabd;
 
   }
   
@@ -192,6 +204,7 @@ body{
   .h4-dieta02{
     border-radius: 5px;
     padding: 0 15px 0 15px;
+    color: #FF8C00;
   }
   .p-dieta{
     background-color: #ffffff1a;
@@ -206,8 +219,8 @@ body{
   h1 {
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #f5f5f5;
+    letter-spacing: 2px;
+    color: #FFFACD;
   }
   
   #peso {
@@ -241,7 +254,7 @@ body{
   .dietas{
     border: 5px #ddd;
     box-shadow: 0px 0px 10px;
-    background-color: #353433c4;
+    background-color: #5c77aaea;
     position:relative;
     padding: 4em 3em;
     width: 80%;
@@ -258,7 +271,7 @@ body{
   .exercicio{
     border: 5px #ddd;
     box-shadow: 0px 0px 10px;
-    background-color: #353433c4;
+    background-color: #5c77aaea;
     position:relative;
     padding: 3em 3em;
     width: 80%;
